@@ -1,6 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.header {
+	/* Padding */
+	padding: 12px 10px 6px;
+	height: 40px; 
+	
+	/* Reset typography */
+	color: white; 
+	font-size: 17px;
+	background-color: #333; 
+	vertical-align: baseline;
+	
+	/* Floating */
+	top: 0px; 
+	left: 0px; 
+	right: 0px; 
+	clear: both;
+	margin-bottom: 6px;
+	
+	vertical-align: bottom;
+}
+
 .footer {
 	/* Padding */
 	padding: 6px 10px 12px;
