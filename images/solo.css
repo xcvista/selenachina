@@ -15,7 +15,6 @@
 	left: 0px;
 	right: 0px;
 	clear: both;
-	margin-bottom: 6px;
 	vertical-align: bottom;
 }
 
@@ -63,4 +62,14 @@
 	border-style: dotted;
 	font-size: 13px;
 	padding: 6px;
+}
+
+.sg-title {
+	font-family: 'UltraCondensedSansSerif';
+	src: url('images/fonts/UltraCondensedSansSerif.eot'); 
+	src: url('images/fonts/UltraCondensedSansSerif.woff') format('woff');
+	src: url('images/fonts/UltraCondensedSansSerif.ttf') format('truetype');
+	src: url('images/fonts/UltraCondensedSansSerif.svg') format('svg');
+	font-size: 70px;
+	text-transform: uppercase;	
 }
