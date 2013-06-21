@@ -1,6 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@font-face {
+	font-family: 'Conv_UltraCondensedSansSerif';
+	src: url("images/fonts/UltraCondensedSansSerif.eot"), 
+		 url("fonts/UltraCondensedSansSerif.woff") format("woff"),
+		 url("fonts/UltraCondensedSansSerif.ttf") format("truetype"),
+		 url("fonts/UltraCondensedSansSerif.otf") format("opentype"),
+		 url("fonts/UltraCondensedSansSerif.svg") format("svg");
+	font-stretch: ultra-condensed;
+	font-weight: normal;
+	font-style: normal;	
+}
+
 .header {
 	/* Padding */
 	padding: 12px 10px 6px;
@@ -68,11 +80,7 @@
 }
 
 .sg-title {
-	font-family: 'UltraCondensedSansSerif';
-	src: url('images/fonts/UltraCondensedSansSerif.eot'); 
-	src: url('images/fonts/UltraCondensedSansSerif.woff') format('woff');
-	src: url('images/fonts/UltraCondensedSansSerif.ttf') format('truetype');
-	src: url('images/fonts/UltraCondensedSansSerif.svg') format('svg');
+	font-family: 'Conv_UltraCondensedSansSerif';
 	font-size: 20px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
