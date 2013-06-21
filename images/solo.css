@@ -4,13 +4,16 @@
 .header {
 	/* Padding */
 	padding: 12px 10px 6px;
-	height: 40px;
+	height: 30px;
+	
 	/* Reset typography */
 	color: white;
 	font-size: 20px;
 	background-color: #333;
 	vertical-align: baseline;
+	
 	/* Floating */
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -70,6 +73,6 @@
 	src: url('images/fonts/UltraCondensedSansSerif.woff') format('woff');
 	src: url('images/fonts/UltraCondensedSansSerif.ttf') format('truetype');
 	src: url('images/fonts/UltraCondensedSansSerif.svg') format('svg');
-	font-size: 70px;
+	font-size: 20px;
 	text-transform: uppercase;	
 }
