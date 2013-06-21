@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.footer {
+	/* Padding */
+	padding: 6px 10px 12px;
+	height: 30px; 
+	
+	/* Reset typography */
+	color: white; 
+	font-size: 13px;
+	background-color: #333; 
+	vertical-align: baseline;
+	
+	/* Floating */
+	position: fixed;
+	bottom: 0px; 
+	left: 0px; 
+	right: 0px; 
+	clear: both;
+	margin-top: 6px;
+}
+
+.menu {
+	padding: 6px 6px 6px 10px; 
+	margin-left: 0px; 
+	margin-bottom: 60px; 
+	float: left; 
+	background-color: #ccc; 
+	width: 300px; 
+	border-style: none solid none none; 
+	border-width: 0px 3px 0px 0px; 
+	border-color: #333; 
+	font-size: 13px;
+}
+
+.bracer {
+	float: right;
+	margin: 6px;
+	text-align: center;
+	width: 250px;
+	margin: 6px;
+	border-color: #ccc;
+	border-width: 1px;
+	border-style: dotted;
+	font-size: 13px;
+	padding: 6px;
+}
