@@ -19,9 +19,8 @@
 	height: 30px;
 	
 	/* Reset typography */
-	color: white;
 	font-size: 20px;
-	background-color: #333;
+	background-color: rgba(255, 255, 255, 0.95);
 	vertical-align: baseline;
 	
 	/* Floating */
@@ -31,6 +30,11 @@
 	right: 0px;
 	clear: both;
 	vertical-align: bottom;
+	
+	/* Bottom hair line */
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #F9C;
 }
 
 .footer {
@@ -39,9 +43,8 @@
 	height: 30px; 
 	
 	/* Reset typography */
-	color: white; 
 	font-size: 13px;
-	background-color: #333; 
+	background-color: rgba(255, 255, 255, 0.95); 
 	vertical-align: baseline;
 	
 	/* Floating */
@@ -51,6 +54,11 @@
 	right: 0px; 
 	clear: both;
 	margin-top: 6px;
+	
+	/* Top hair line */
+	border-top: solid;
+	border-top-width: 1px;
+	border-top-color: #F9C;
 }
 
 .menu {
